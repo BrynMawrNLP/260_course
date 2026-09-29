@@ -1,0 +1,213 @@
+- name: "Theme 1 · Data, Python, Modeling, and Optimization"
+  lectures:
+    - date: 2026-09-01
+      slides: slides/lecture01.pdf
+      title: "Lecture 1<br>What can we learn from data?<br>Crash course on Python"
+      handouts: handouts/handout01.pdf
+      readings:
+        - title: "MML, Chapter 1"
+          url: "https://mml-book.github.io/"
+      assignments:
+        - title: "HW01: Computing and plotting in Python"
+          url: "hw/HW01.html"
+          deadline: "2026-09-08"
+    - date: 2026-09-03
+      title: "Lecture 2<br>Representing data<br>Introduction to modeling: what is a model?"
+      slides: slides/lecture02.pdf
+      handouts: handouts/handout02.pdf
+      readings:
+        - title: "MML, §§8.1 and 8.2.1–8.2.3"
+          url: "https://mml-book.github.io/"
+    - date: 2026-09-08
+      title: "Lecture 3<br>Linear and polynomial models"
+      slides: slides/lecture03.pdf
+      handouts: handouts/handout03.pdf
+      assignments:
+        - title: "HW02: Modeling climate change"
+          url: "hw/HW02.html"
+          deadline: "2026-09-14"
+      readings:
+        - title: "Daumé, §§7.1–7.6"
+          url: "http://ciml.info/"
+        - title: "MML, §§2.1–2.2, 2.5, and 2.7.1"
+          url: "https://mml-book.github.io/"
+          optional: true
+    - date: 2026-09-10
+      title: "Lecture 4<br>Vectors, matrices, data matrices, and matrix operations"
+      slides: slides/lecture04.pdf
+      handouts: handouts/handout04.pdf
+      readings:
+        - title: "Vector and Matrix handout"
+          url: "handouts/vectors_matrices.pdf"
+
+    - date: 2026-09-15
+      title: "Lecture 5<br>Multiple Linear regression, gradients, and gradient descent"
+      slides: slides/lecture05.pdf
+      handouts: handouts/handout05.pdf
+      assignments:
+        - title: "HW03: Gradient descent"
+          url: "hw/HW03.html"
+          deadline: "2026-09-22"
+      readings:
+        - title: "MML, Chapters 7–7.1 and 9–9.2"
+          url: "https://mml-book.github.io/"
+          optional: false
+        - title: "Handout 5 solution"
+          url: "handouts/handout05-solutions.pdf"
+
+- name: "Theme 2 · Model Evaluation, Probability, and Information"
+  lectures:
+    - date: 2026-09-17
+      title: "Lecture 6<br>Classification<br>Confusion matrices; precision, recall, specificity, and sensitivity"
+      slides: slides/lecture06.pdf
+      handouts: handouts/handout06.pdf
+      readings:
+        - title: "Manning et al., Evaluation in Information Retrieval, §§8.3–8.4"
+          url: "https://nlp.stanford.edu/IR-book/pdf/08eval.pdf"
+        - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Chapter 4.9"
+          url: "https://web.stanford.edu/~jurafsky/slp3/4.pdf"
+    - date: 2026-09-22
+      title: "Lecture 7<br>Evaluation and an introduction to probability"
+      slides: slides/lecture07.pdf
+      handouts: handouts/handout07.pdf
+      assignments:
+        - title: "HW04: Evaluation metrics"
+          url: "hw/HW04.html"
+          deadline: "2026-10-02"
+      readings:
+        - title: "MML, §§6.1–6.3"
+          url: "https://mml-book.github.io/"
+        - title: "Daumé, §§9.1–9.4"
+          url: "http://ciml.info/"
+    - date: 2026-09-24
+      title: "Lecture 8<br>Naive Bayes, conditional independence, and probabilistic classification"
+      slides: slides/lecture08.pdf
+      handouts: handouts/handout08.pdf
+      readings:
+        - title: "Daumé, §§9.1–9.4"
+          url: "http://ciml.info/"
+
+    - date: 2026-09-29
+      title: "Lecture 9<br>Naive Bayes, Smoothing<br>Decision Trees"
+      slides: slides/lecture09.pdf
+      handouts: handouts/handout09.pdf
+      assignments:
+        - title: "HW05: Naive Bayes"
+          deadline: "2026-10-27"
+      readings:
+        - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Appendix B: B1-B6"
+          url: "https://web.stanford.edu/~jurafsky/slp3/B.pdf"
+    - date: 2026-10-01
+      title: "Information, entropy, coding theory, and applications in machine learning"
+      readings:
+        - title: "MIT notes, Information, Entropy, and the Motivation for Source Codes"
+          url: "https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/resources/mit6_02f12_chap02/"
+        - title: "Understanding Entropy"
+          url: "https://medium.com/analytics-vidhya/understanding-entropy-the-golden-measurement-of-machine-learning-4ea97c663dc3"
+
+    - date: 2026-10-06
+      title: "Midterm 1 review"
+    - date: 2026-10-08
+      title: "<strong>Midterm 1</strong>"
+
+    - date: 2026-10-13
+      title: "Fall Break — no class or hw"
+      type: no_lecture
+    - date: 2026-10-15
+      title: "Fall Break — no class"
+      type: no_lecture
+
+    - date: 2026-10-20
+      title: "Logistic regression"
+
+    - date: 2026-10-22
+      title: "Logistic regression and principles of data visualization"
+      readings:
+        - title: "Fundamentals of Data Visualization, Chapters 1–5, 18, and 22"
+          url: "https://clauswilke.com/dataviz/"
+        - title: "Mitchell, Generative and Discriminative Classifiers, §3"
+          url: "http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf"
+          optional: true
+
+    - date: 2026-10-27
+      title: "EMNLP Conference - no class"
+      type: no_lecture
+      assignments:
+        - title: "Logistic regression and visualization"
+    - date: 2026-10-29
+      title: "EMNLP Conference - no class"
+      type: no_lecture
+      _title: "Visual encodings, graph visualization, and PCA"
+      readings:
+        - title: "MML, Chapter 10; Daumé, Chapter 15 (PCA)"
+
+- name: "Theme 4 · Statistical Inference"
+  lectures:
+    - date: 2026-11-03
+      title: "Normal distributions, hypothesis testing, and p-values"
+      readings:
+        - title: "Crash Course Statistics, episodes 18–21, 26, and 27"
+          url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr"
+      assignments:
+        - title: "Statistics and visualization"
+    - date: 2026-11-05
+      title: "Randomized trials, permutation tests, and t-tests"
+
+    - date: 2026-11-10
+      title: "Confidence intervals and the bootstrap"
+      readings:
+        - title: "Bootstrap demonstration by Sara Mathieson"
+          url: "https://hc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cb71daf4-e850-4737-97d8-b0bc015b0359"
+      assignments:
+        - title: "Bootstrap and confidence intervals"
+    - date: 2026-11-12
+      title: "Bagging and random forests"
+
+- name: "Theme 5 · Unsupervised Learning"
+  lectures:
+    - date: 2026-11-17
+      title: "Dimensionality reduction: PCA and t-SNE"
+      readings:
+        - title: "Daumé, Chapter 15 (K-means)"
+          url: "http://ciml.info/"
+      assignments:
+        - title: "Dimensionality reduction and clustering"
+    - date: 2026-11-19
+      title: "<strong>Midterm 2</strong>"
+
+    - date: 2026-11-24
+      title: "Unsupervised Learning II: K-means, Gaussian mixture models, and KDE"
+      readings:
+        - title: "MML, Chapter 11 (Gaussian mixture models)"
+          url: "https://mml-book.github.io/"
+        - title: "Reynolds, Gaussian Mixture Models tutorial"
+          url: "http://leap.ee.iisc.ac.in/sriram/teaching/MLSP_16/refs/GMM_Tutorial_Reynolds.pdf"
+          optional: true
+      assignments:
+        - title: "Clustering and mixture models"
+    - date: 2026-11-26
+      title: "Thanksgiving Break — no class"
+      type: no_lecture
+
+- name: "Theme 6 · Neural Networks, Synthesis, and Review"
+  lectures:
+    - date: 2026-12-01
+      title: "Missing data and neural-network foundations"
+      readings:
+        - title: "Missing-data paper"
+          url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/"
+        - title: "Stanford CS231n, Neural Networks Part 1"
+          url: "https://cs231n.github.io/neural-networks-1/"
+      assignments:
+        - title: "Neural networks"
+    - date: 2026-12-03
+      title: "Deep learning and applications"
+      readings:
+        - title: "Karpathy, Neural Networks: Zero to Hero"
+          url: "https://karpathy.ai/zero-to-hero.html"
+          optional: true
+
+    - date: 2026-12-08
+      title: "Data science synthesis and applications"
+    - date: 2026-12-10
+      title: "Course wrap-up and final-exam review"

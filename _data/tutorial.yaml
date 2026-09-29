@@ -1,0 +1,194 @@
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/01-intro.pdf
+  title: Introduction
+  highlights:
+    - Overview of uses of crowdsourcing 
+    - Non-language uses of crowdsourcing
+    - types of problems (labels, text, speech, people...)
+  reading:
+    -
+      author: Rion Snow, Brendan O’Connor, Daniel Jurafsky and Andrew Ng
+      title:  Cheap and Fast&colon; But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+      url: readings/downloads/nlp/evaluating-non-expert-annotations-for-nlp.pdf
+    -
+      author: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Fei-Fei Li
+      title: ImageNet&colon; A large-scale hierarchical image database
+      url: http://www.image-net.org/papers/imagenet_cvpr09.pdf
+    -
+      author: Cyrus Rashtchian, Peter Young, Micah Hodosh, Julia Hockenmaier
+      title: Collecting image annotations using Amazon's Mechanical Turk
+      url: http://nlp.cs.illinois.edu/HockenmaierGroup/Papers/AMT2010/W10-0721.pdf
+
+
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/02-taxonomy-of-human-computation.pdf
+  title: Taxonomy of crowdsourcing and human computation
+  highlights:
+    - Categorization system&colon; motivation, quality control, aggregation, human skill, process flow. 
+  reading:
+    -
+      author: Alex Quinn and Benjamin B. Bederson
+      title:  Human Computation&colon; A Survey and Taxonomy of a Growing Field
+      url: http://crowdsourcing-class.org/readings/downloads/intro/QuinnAndBederson.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/03-crowdsourcing_platforms.pdf
+  title: Crowdsourcing platforms&colon; Mechanical Turk and CrowdFlower 
+  highlights:
+    - Terminology and mechanics&colon; Turkers, Requesters, HITs, micropayments
+    - Demographics and motivation of Mechanical Turk workers
+  reading:
+    -
+      author: Gabriele Paolacci, Jesse Chandler and Panos Ipeirotis
+      title:  Running experiments on Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/running-experiments-on-mturk.pdf
+    -
+      author: Panos Ipeirotis
+      title: The Demographics of MTurk
+      url: http://crowdsourcing-class.org/readings/downloads/platform/demographics-of-mturk.pdf
+    -
+      author: Panos Ipeirotis
+      title: Analyzing the MTurk Marketplace
+      url: http://crowdsourcing-class.org/readings/downloads/platform/analyzing-mturk.pdf
+    -
+      title: MTurk Tracker
+      url: http://demographics.mturk-tracker.com/
+    - 
+      title: CrowdFlower blog about demographics
+      url: http://www.crowdflower.com/blog/2014/01/demographics-of-the-largest-on-demand-workforce
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/04-experiment_design_and_demos.pdf
+  title: How to set up and run experiment 
+  highlights:
+    - Designing and running experiments (step-by-step overview)
+    - Example of quickly using MTurk via the web interface
+    - Accessing MTurk via the boto API and the CrowdFlower API that People Pattern created
+  reading:
+    -
+      title:  boto Python API to Amazon Web Services
+      url: https://github.com/boto/boto
+    -
+      title:  Python API to CrowdFlower  
+      url: https://github.com/peoplepattern/crowdflower
+    -
+      author: Ellie Pavlick 
+      title: Example code/templates for posting HITs via web interfaces and Python APIs
+      url: http://crowdsourcing-class.org/tutorial_slides/demo-code-and-templates.tgz
+    -
+      title: Check out the results from our live demo! 
+      url: http://crowdsourcing-class.org/readings/downloads/platform/demo-results.txt
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/05-ethics-of-crowdsourcing.pdf
+  title: Ethics of Crowdsourcing  
+  highlights:
+    - Fair wages?
+    - Privacy/IRB considerations
+  reading:
+    -
+      author: Karen Fort, Gilles Adda and Bretonnel Cohen 
+      title: Amazon Mechanical Turk&#58; Gold Mine or Coal Mine?
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/gold-mine-or-coal-mine.pdf
+    -
+      author: David Martin, Benjamin Hanrahan, Jacki O’Neill and Neha Gupta
+      title: Being A Turker
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/being-a-turker.pdf
+    -
+      author: Lilly Irani and Six Silberman
+      title: Turkopticon&colon; Interrupting Worker Invisibility in Amazon Mechanical Turk
+      url: http://crowdsourcing-class.org/readings/downloads/ethics/turkopticon.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/06-quality_control.pdf
+  title: Quality Control  
+  highlights:
+    - MTUrk's Reputation system and qualifications
+    - Aggregation and redundancy
+    - Embedded gold standard data 
+    - Second-pass reviewing
+    - Economic incentives
+    - Statistical models
+    - Should we do quality control if we are training a statistical model?
+  reading:
+    -
+      author: A. P. Dawid and A. M. Skene
+      title:  Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm
+      url: readings/downloads/ml/EM.pdf
+    -
+      author: Victor Sheng, Foster Provost, and Panos Ipeirotis
+      title:  Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
+      url: readings/downloads/econ/get-another-label.pdf
+    -
+      author: Becky Passonneau and Bob Carpenter
+      title: The Benefits of a Model of Annotation
+      url: http://www.aclweb.org/anthology/Q/Q14/Q14-1025.pdf
+    -
+      author: Chris Lin, Mausam, and Dan Weld
+      title: To Re(label), or Not To Re(label)
+      url: http://homes.cs.washington.edu/~chrislin/papers/hcomp14.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/07-statistics.pdf
+  title: Statistical analysis of MTurk data  
+  highlights:
+    - Quality versus quantity 
+    - Active data collection
+    - Accounting for worker variation
+  reading:
+    -
+      author: Victor Sheng, Foster Provost, and Panos Ipeirotis
+      title: Get Another Label? Improving Data Quality and Data Mining Using Multiple, Noisy Labelers
+      url: http://www.ipeirotis.com/wp-content/uploads/2012/01/kdd2008.pdf
+    -
+      author: Abhimanu Kumar and Matthew Lease
+      title: Modeling Annotator Accuracies for Supervised Learning
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
+  title: Case studies in NLP&colon; Chris Callison-Burch 
+  highlights:
+    - Crowdsourcing Translation
+    - Using crowdsourcing to collect data to train SMT systems
+  reading:
+    -
+      author: Omar Zaidan and Chris Callison-Burch
+      title:  Crowdsourcing Translation&#58; Professional Quality from Non-Professionals
+      url: http://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
+    -
+      author: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+      title:  The Language Demographics of Amazon Mechanical Turk
+      url: http://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
+    -
+      title:  Machine Translation of Arabic Dialects
+      author: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan, and Chris Callison-Burch
+      url: http://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/08-crowdsourcing-translation.pdf
+  title: Case studies in NLP&colon; Lyle Ungar
+  highlights:
+    - Word Sense Disambiguation   
+    - Computational Social Science at the World Well-Being Project (WWBP)
+  reading:
+    -
+      title: World Well-Being Project (WWBP)
+      url: http://wwbp.org/
+    -
+      author: Adam Kapelner, Krishna Kaliannan, H. Andrew Schwartz, Lyle Ungar and Dean Foster
+      title:  New Insights from Coarse Word Sense Disambiguation in the Crowd
+      url: http://anthology.aclweb.org//C/C12/C12-2053.pdf
+    -
+      author: Schwartz, H. A., Eichstaedt, J. C., Kern, M. L., Dziurzynski, L., Ramones, S. M., Agrawal, M., Shah, A., Kosinski, M., Stillwell, D., Seligman, M. E., & Ungar, L. H
+      title:  Personality, Gender, and Age in the Language of Social Media&colon; The Open-Vocabulary Approach
+      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073791
+    -
+      author: Eichstaedt, J. C., Schwartz, H. A., Kern, M. L., Park, G., Labarthe, D. R., Merchant, R. M., Jha, S., Agrawal, M., Dziurzynski, L. A., Sap, M., Weeg, C., Larson, E. E., Ungar, L. H., & Seligman, M. E.
+      title:  Psychological Language on Twitter Predicts County-Level Heart Disease Mortality
+      url: http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf
+-
+  date: 2015-05-31
+  slides: http://crowdsourcing-class.org/tutorial_slides/09-wrap-up.pdf
+  title: Wrap up

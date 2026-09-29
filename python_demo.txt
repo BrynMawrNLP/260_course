@@ -1,0 +1,144 @@
+smathieson@smathieson-20 disc-pg-gan % python3
+Python 3.8.2 (default, Dec 21 2020, 15:06:04) 
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import random
+>>> 
+>>> 
+>>> total = 0
+>>> for i in range(10):
+...     total += random.randrange(1,7) # die
+... 
+>>> total
+41
+>>> rolls = [random.randrange(1,7) for i in range(10)]
+>>> rolls
+[5, 6, 4, 5, 5, 4, 5, 6, 3, 1]
+>>> odd_rolls = [random.randrange(1,7,2) for i in range(10)]
+>>> odd_rolls
+[1, 5, 1, 1, 1, 1, 1, 3, 3, 3]
+>>> 
+>>> import matplotlib.pyplot as plt
+>>> 
+>>> 
+>>> 
+>>> plt.plot(range(10), rolls)
+[<matplotlib.lines.Line2D object at 0x11b8663a0>]
+>>> plt.show()
+>>> plt.show() # nothing happens, as the current figure has already been displayed and emptied
+>>> plt.scatter(range(10), rolls)
+<matplotlib.collections.PathCollection object at 0x11baf99d0>
+>>> plt.show()
+>>> rolls = [random.randrange(1,7) for i in range(10000)]
+>>> plt.hist(rolls)
+(array([1649.,    0., 1641.,    0., 1692.,    0., 1620.,    0., 1666.,
+       1732.]), array([1. , 1.5, 2. , 2.5, 3. , 3.5, 4. , 4.5, 5. , 5.5, 6. ]), <BarContainer object of 10 artists>)
+>>> plt.show()
+>>> random.random()
+0.5151881918643507
+>>> random.random()
+0.9820611256833769
+>>> random.random()
+0.0004928543212465719
+>>> random.random()
+0.08001414800251094
+>>> 
+>>> 
+>>> 
+>>> import numpy as np
+>>> 
+>>> 
+>>> arr = np.zeros((3,4))
+>>> arr
+array([[0., 0., 0., 0.],
+       [0., 0., 0., 0.],
+       [0., 0., 0., 0.]])
+>>> arr = np.array([[1,2,3,4],[5,6,7,8]])
+>>> arr
+array([[1, 2, 3, 4],
+       [5, 6, 7, 8]])
+>>> arr[0,:]
+array([1, 2, 3, 4])
+>>> arr[:,0]
+array([1, 5])
+>>> arr[:,0:3]
+array([[1, 2, 3],
+       [5, 6, 7]])
+>>> arr[:,:3]
+array([[1, 2, 3],
+       [5, 6, 7]])
+>>> 
+>>> arr[1,2] = 8
+>>> arr
+array([[1, 2, 3, 4],
+       [5, 6, 8, 8]])
+>>> arr.shape
+(2, 4)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = [2,3,4]
+>>> 
+>>> 
+>>> a.shape
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'shape'
+>>> 
+>>> 
+>>> b = a
+>>> 
+>>> b
+[2, 3, 4]
+>>> 
+>>> 
+>>> b[1] = 8
+>>> 
+>>> 
+>>> b
+[2, 8, 4]
+>>> 
+>>> 
+>>> 
+>>> a
+[2, 8, 4]
+>>> 
+>>> 
+>>> x = 5
+>>> y = x
+>>> y
+5
+>>> y = 3
+>>> x
+5
+>>>
+>>> dict = {}
+>>> len(dict)
+0
+>>> dict[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 1
+>>> dict[0] = "Thao"
+>>> dict[1] = "Darshan"
+>>> dict[2] = "Edgar"
+>>> dict
+{0: 'Thao', 1: 'Darshan', 2: 'Edgar'}
+>>> dict[1]
+'Darshan'
+>>> for i in dict:
+...     print(i)
+...
+0
+1
+2
+>>> for k, v in dict.items():
+...     print(v)
+...
+Thao
+Darshan
+Edgar
+>>> dict[1] = "Thao"
+>>> dict
+{0: 'Thao', 1: 'Thao', 2: 'Edgar'}

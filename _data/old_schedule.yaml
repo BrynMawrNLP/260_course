@@ -1,0 +1,400 @@
+- 
+  lectures: 
+    - 
+      assignments: 
+        - 
+          deadline: 2020-10-28
+          title: "Lab 0 - Python Intro"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flabs%2Flab00%2Flab00.ipynb&branch=master"
+        - 
+          deadline: 2020-10-29
+          title: "Homework 0 - Causality & Expressions"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fhomeworks%2Fhw00%2Fhw00.ipynb&branch=master"
+      date: 2020-10-26
+      title: "Course Introduction"
+      slides: slides/week1/lecture0-intro.pdf
+      modules: 
+        - 
+          notebook: ~
+          title: "Course Introduction"
+        -   
+          title: "Causality & Experiments"
+          notebook: ~
+          slides: ~
+
+      readings:
+        -
+          authors:
+          title: "Chapter 1 - What is Data Science?"
+          url: "https://www.inferentialthinking.com/chapters/01/what-is-data-science.html"
+        - 
+          authors: 
+          title: "Chapter 2 - Causality and Experiments"
+          url: https://www.inferentialthinking.com/chapters/02/causality-and-experiments.html
+        - 
+          authors: "Jeannette M. Wing"
+          title: "Computational Thinking"
+          url: /readings/Wing06-Comp-thinking.pdf
+          optional: True
+      old_modules: 
+        - 
+          deadline: 2020-10-27
+          title: "Module 1.1 Cause & Effect"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fmodules%2Fweek1%2FModule1_1-Cause_Effect.ipynb&branch=master"
+      recording: ~
+    - 
+      assignments: ~
+      date: 2020-10-27
+      title: "Data Types, Expressions"
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_2_Data_Types_Expressions.ipynb&branch=master
+      slides: slides/week1/lecture1-data-types-expressions.pdf
+      modules: 
+        - 
+          notebook: ~
+          slides: ~
+          title: "Data Types, Expressions"
+      old_modules: 
+        - 
+          deadline: 2020-10-28
+          title: "Module 1.2 Data Types"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fmodules%2Fweek1%2FModule1_2-Data_Types.ipynb&branch=master"
+        - 
+          deadline: 2020-10-28
+          title: "Module 1.3 Tables"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fmodules%2Fweek1%2FModule1_3-Table_I.ipynb&branch=master"
+      readings: 
+        -
+          url: https://www.inferentialthinking.com/chapters/03/programming-in-python.html
+          title: "Chapter 3.1 - 3.3: Programming in Python"
+        -
+          url: https://www.inferentialthinking.com/chapters/04/Data_Types.html
+          title: "Chapter 4: Data Types"
+    - 
+      assignments: 
+        - 
+          deadline: 2020-10-30
+          title: "Lab 1 - Tables"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flabs%2Flab01%2Flab01.ipynb&branch=master"
+      date: 2020-10-28
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_3.ipynb&branch=master
+      slides: slides/week1/lecture2-tables_arrays_sequences.pdf
+      title: "Tables -  Arrays & Columns, Building Tables"
+      readings:
+        -
+          url: "https://www.inferentialthinking.com/chapters/03/4/Introduction_to_Tables.html"
+          title: "Chapter 3.4: Introduction to Tables"
+        -
+          url: "https://www.inferentialthinking.com/chapters/05/Sequences.html"
+          title: "Chapter 5: Sequences"
+    - 
+      assignments: 
+        - 
+          deadline: 2020-11-04
+          title: "Homework 1 - Arrays and Tables"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fhomeworks%2Fhw01%2Fhw01.ipynb&branch=master"
+      date: 2020-10-29
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_4.ipynb&branch=master
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_4_completed.ipynb&branch=master
+      slides: slides/week1/lecture3-more_tables.pdf
+      title: "More Tables"
+      readings:
+        -
+          url: "https://www.inferentialthinking.com/chapters/06/Tables.html"
+          title: "Chapter 6: Tables"
+  name: "Week 1 - Intro to Python"
+- 
+  lectures: 
+    - 
+      assignments: ~
+      date: 2020-11-02
+      title: "No Lecture - Fall Break"
+      readings: ~
+      slides: ~
+      type: no_lecture
+    - 
+      date: 2020-11-03
+      title: "No Lecture - Fall Break <br> <b>GO VOTE!</b>"
+      slides: ~
+      type: no_lecture
+    - 
+      assignments: 
+        - 
+          deadline: 2020-11-06
+          title: "Lab 2 - Data Types and Arrays"
+          url: "http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flabs%2Flab02%2Flab02.ipynb&branch=master"
+      date: 2020-11-04
+      title: "Visualization"
+      readings:
+        -
+          url: "https://www.inferentialthinking.com/chapters/07/Visualization.html"
+          title: "Chapter 7: Visualizations"
+      slides: slides/week2/lecture4-visualization.pdf
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_5.ipynb&branch=master
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_5_completed.ipynb&branch=master
+    - 
+      assignments: 
+        - 
+          deadline: 2020-11-09
+          title: "Homework 2 - Table Manipulation & Visualization"
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fhomeworks%2Fhw02%2Fhw02.ipynb&branch=master
+      date: 2020-11-05
+      title: "Visualization II: barplot & histograms" 
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_6.ipynb&branch=master
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_6_completed.ipynb&branch=master
+      readings: 
+        -
+          url: "https://www.inferentialthinking.com/chapters/08/Functions_and_Tables.html"
+          title: "Chapter 8: Functions and Tables"
+      slides: slides/week2/lecture5-histograms-functions.pdf
+  name: "Week 2 - Visualizations"
+  readings: 
+    - 
+      link: "https://www.inferentialthinking.com/chapters/07/Visualization.html"
+      title: "Chapter 7 - Visualization"
+- 
+  lectures: 
+    - 
+      assignments: 
+        - 
+          deadline: 2020-11-12
+          title: "Homework 3 - Functions, Histograms, and Groups"
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fhomeworks%2Fhw03%2Fhw03.ipynb&branch=master
+        - 
+          deadline: 2020-11-11
+          title: "Lab 3 - Functions and Visualizations"
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flabs%2Flab03%2Flab03.ipynb&branch=master 
+      date: 2020-11-09
+      slides: slides/week3/lecture6-functions.pdf
+      title: "Functions and Tables and Conditionals"
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_7.ipynb&branch=master
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_7_completed.ipynb&branch=master
+      readings:
+        -
+          url: https://www.inferentialthinking.com/chapters/09/1/Conditional_Statements.html
+          title: "Chapter 9.1 - Conditional Statements"
+    - 
+      date: 2020-11-10
+      title: "Randomness"
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_8.ipynb&branch=master
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_8_completed.ipynb&branch=master
+      slides: slides/week3/lecture7-pivot-join-randomness.pdf
+      readings:
+        -
+          url: https://www.inferentialthinking.com/chapters/09/Randomness.html
+          title: Chapter 9 - Randomness
+        -
+          url: https://www.inferentialthinking.com/chapters/09/2/Iteration.html
+          title: Chapter 9.2 - Iterations
+        -
+          url: inferentialthinking.com/chapters/09/3/Simulation.html
+          title: Chapter 9.3 - Simulation
+      assignments:
+        -
+          deadline: 2020-11-18
+          title: Checkpoint/Project 1
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fprojects%2Fproject1%2Fproject1.ipynb&branch=master
+    - 
+      date: 2020-11-11
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_9.ipynb&branch=master
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_9_completed.ipynb&branch=master
+      slides: slides/week3/lecture8-control-statements-randomness.pdf
+      title: "Monty Hall & Probabilities"
+      assignments:
+        - 
+          deadline: 2020-11-13
+          title: "Lab 4 - Simulations"
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flabs%2Flab04%2Flab04.ipynb&branch=master 
+      readings:
+        -
+          url: "https://www.inferentialthinking.com/chapters/09/4/Monty_Hall_Problem.html"
+          title: "The Monty Hall Problem"
+        -
+          url: https://www.inferentialthinking.com/chapters/09/5/Finding_Probabilities.html
+          title: "Finding Probabilities"
+
+    - 
+      date: 2020-11-12
+      completed_notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_10_completed.ipynb&branch=master
+      notebook: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Flecture_demos%2FLecture_10.ipynb&branch=master
+      slides: slides/week3/lecture9-monty_hall-probabilities.pdf
+      title: "Sampling & Empirical Distributions I"
+      assignments:
+        - 
+          deadline: 2020-11-16
+          title: "Homework 4 - Applying Functions and Iteration"
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fhomeworks%2Fhw04%2Fhw04.ipynb&branch=master
+      readings: 
+        - 
+          url: "https://www.inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html"
+          title: Chapter 10 - Sampling & Empirical Distributions"
+        -
+          url: https://www.inferentialthinking.com/chapters/10/1/Empirical_Distributions.html
+          title: Chapter 10.1 - Empirical Distributions"
+  name: "Week 3 - More Tables, Probability & Sampling"
+- 
+  lectures: 
+    - 
+      date: 2020-11-16
+      notebook: ~
+      slides: 
+      title: "Sampling & Empirical Distributions II"
+      assignments:
+        - 
+          deadline: 2020-11-19
+          title: "Homework 5 - Probability, Simulation, Estimation, and Assessing Models"
+          url: http://jupyterhub.coms1016.barnard.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FBC-COMS-1016%2Fmaterials-f20&urlpath=tree%2Fmaterials-f20%2Fhomeworks%2Fhw05%2Fhw05.ipynb&branch=master
+        - 
+          deadline: 2020-11-18
+          title: "Lab 5 - Assessing Models: Examining the Therapeutic Touch"
+          url: 
+    - 
+      assignments: 
+      date: 2020-11-17
+      notebook: ~
+      slides: 
+      title: "Hypothesis Testing"
+      slides: ~
+    - 
+      date: 2020-11-18
+      notebook: ~
+      slides: 
+      title: "A/B Testing"
+      assignments:
+        - 
+          deadline: 2020-11-20
+          title: "Lab 6 - Inference and the Death Penalty"
+          url: 
+    - 
+      assignments: 
+        - 
+          deadline: 2020-11-23
+          title: "Homework 6 - Testing Hypotheses"
+          url: ~
+        -
+          deadline: 2020-11-24
+          title: Midterm 
+          notes: potentially released Nov 17th
+      date: 2020-11-19
+      title: Causality
+      slides:
+      notebook: ~
+    -
+      date: 2020-11-19
+      title: "Last day to withdraw course/declare P/F"
+      type: deadline
+  name: "Week 4 - Hypothesis Testing, Catchup and Midterm"
+- 
+  lectures: 
+    - 
+      assignments: 
+        - 
+          deadline: 2020-11-26
+          title: "Homework 7 - Confidence Intervals"
+          url: ~
+        - 
+          deadline: 2020-11-25
+          title: "Lab 7 - Resampling and Bootstrap"
+          url: 
+      date: 2020-11-23
+      title: Estimation and Bootstrap <br> Confidence Intervals
+      notebook: ~
+      slides: ~
+    - 
+      date: 2020-11-24
+      slides: ~
+      title: Distributions <br> Variance of Sample Means
+    - 
+      date: 2020-11-25
+      slides: ~
+      title: "No Lecture - Thanksgiving"
+      type: no_lecture
+    - 
+      date: 2020-11-26
+      type: no_lecture
+      title: "No Lecture - Thanksgiving"
+  name: "Week 5 - Uncertainty, Confidence, and Distributions"
+- 
+  lectures: 
+    - 
+      assignments: 
+        - 
+          deadline: 2020-12-03
+          title: "Homework 8 - Resampling and the Bootstrap"
+          url: ~
+        - 
+          deadline: 2020-12-02
+          title: "Lab 8 - Normal Distribution and Variance of Sample Means"
+          url: 
+      date: 2020-11-30
+      title: Correlation
+      notebook: ~
+      slides: ~
+    - 
+      date: 2020-12-01
+      title: Linear Regression
+      notebook: ~
+      slides: ~
+    - 
+      date: 2020-12-02
+      assignments:
+        - 
+          deadline: 2020-12-04
+          title: "Lab 9 - Conditional Probability"
+          url: 
+      title: Least Squares <br> Residuals
+    - 
+      date: 2020-12-03
+      assignments: 
+        - 
+          deadline: 2020-12-07
+          title: "Homework 9 - Linear Regression"
+          slides: ~
+      title: Regression Inference
+  name: "Week 6 - Linear Regression"
+- 
+  lectures: 
+    - 
+      date: 2020-12-07
+      slides: ~
+      assignments: 
+        - 
+          deadline: 2020-12-10
+          title: "Homework 10 - Regression Inference"
+          url: ~
+        - 
+          deadline: 2020-12-09
+          title: "Lab 10 - Correlation" 
+          url: 
+    - 
+      date: 2020-12-08
+      slides: ~
+      title: 
+    - 
+      date: 2020-12-09
+      slides: ~
+      title:
+      assignments:
+        - 
+          deadline: 2020-12-11
+          title: "Lab 11 - Regression Inference"
+          url: 
+    - 
+      date: 2020-12-10
+      slides: ~
+      title:
+      assignments: 
+        - 
+          deadline: 2020-12-14
+          title: "Homework 11 - Classification"
+          url: ~
+  name: "Week 7 - Prediction"
+- 
+  lectures: 
+    - 
+      date: 2020-12-14
+      slides: ~
+      title: "Lecture 25"
+    - 
+      date: 2020-12-23
+      title: "Final due"
+  name: "Week 8"
