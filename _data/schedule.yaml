@@ -93,6 +93,7 @@
       handouts: handouts/handout09.pdf
       assignments:
         - title: "HW05: Naive Bayes"
+          url: "hw/HW05.html"
           deadline: "2026-10-27"
       readings:
         - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Appendix B: B1-B6"
