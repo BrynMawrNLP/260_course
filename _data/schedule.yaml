@@ -98,7 +98,9 @@
         - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Appendix B: B1-B6"
           url: "https://web.stanford.edu/~jurafsky/slp3/B.pdf"
     - date: 2026-10-01
-      title: "Information, entropy, coding theory, and applications in machine learning"
+      title: "Lecture 10<br>Information, entropy, coding theory, and applications in machine learning"
+      slides: slides/lecture10.pdf
+      handouts: handouts/handout10.pdf
       readings:
         - title: "MIT notes, Information, Entropy, and the Motivation for Source Codes"
           url: "https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/resources/mit6_02f12_chap02/"
