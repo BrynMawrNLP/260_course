@@ -94,6 +94,7 @@
       assignments:
         - title: "HW05: Naive Bayes"
           deadline: "2026-10-27"
+          url: "hw/HW05.html"
       readings:
         - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Appendix B: B1-B6"
           url: "https://web.stanford.edu/~jurafsky/slp3/B.pdf"
@@ -120,28 +121,41 @@
       type: no_lecture
 
     - date: 2026-10-20
-      title: "Logistic regression"
+      title: "Lecture 13<br>Logistic regression"
+      slides: slides/lecture13.pdf
+      handouts: handouts/handout13.pdf
+      readings:
+        - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Chapter 4 (up to 4.8)"
+          url: "https://web.stanford.edu/~jurafsky/slp3/4.pdf"
+        -
+          title: "Generative And Discriminative Classifiers: Naive Bayes And Logistic Regression (Section 3) by Tom Mitchell"
+          url: "http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf"
+        -
+          title: "(optional) Softmax Regression (multi-class logistic regression) from the Stanford UFLDL Tutorial"
+          url: "http://deeplearning.stanford.edu/tutorial/supervised/SoftmaxRegression/"
+          optional: true
 
     - date: 2026-10-22
-      title: "Logistic regression and principles of data visualization"
+      title: "Lecture 14<br>Data Visualization<br>Eigenvectors & Eigenvalues"
       readings:
         - title: "Fundamentals of Data Visualization, Chapters 1–5, 18, and 22"
           url: "https://clauswilke.com/dataviz/"
-        - title: "Mitchell, Generative and Discriminative Classifiers, §3"
-          url: "http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf"
-          optional: true
+      slides: slides/lecture14.pdf
+      handouts: handouts/handout14.pdf
 
     - date: 2026-10-27
-      title: "EMNLP Conference - no class"
-      type: no_lecture
+      title: "Lecture 15<br>Eigenvectors & Eigenvalues<br>PCA"
+      slides: slides/lecture15.pdf
+      handouts: handouts/handout15.pdf
       assignments:
         - title: "Logistic regression and visualization"
-    - date: 2026-10-29
-      title: "EMNLP Conference - no class"
-      type: no_lecture
-      _title: "Visual encodings, graph visualization, and PCA"
       readings:
         - title: "MML, Chapter 10; Daumé, Chapter 15 (PCA)"
+    - date: 2026-10-29
+      title: "Lecture 16<br>PCA<br>Singular Value Decomposition"
+      readings:
+        - title: "Linear Algebra MIT Course notes"
+        - url: "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/d273f75ee2552a5c3c35ccab37e5edce_MIT18_06SCF11_Ses3.5sum.pdf"
 
 - name: "Theme 4 · Statistical Inference"
   lectures:
