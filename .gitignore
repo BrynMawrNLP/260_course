@@ -105,6 +105,7 @@ venv.bak/
 
 # Jekyll
 _site/
+.jekyll-cache/
 .sass-cache
 
 *.pptx
