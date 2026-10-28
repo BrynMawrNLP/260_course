@@ -95,7 +95,6 @@
         - title: "HW05: Naive Bayes"
           url: "hw/HW05.html"
           deadline: "2026-10-27"
-          url: "hw/HW05.html"
       readings:
         - title: "Speech and Language Processing (3rd ed. draft) by Jurafsky & Martin: Appendix B: B1-B6"
           url: "https://web.stanford.edu/~jurafsky/slp3/B.pdf"
@@ -149,7 +148,9 @@
       slides: slides/lecture15.pdf
       handouts: handouts/handout15.pdf
       assignments:
-        - title: "Logistic regression and visualization"
+        - title: "HW06: Information Theory"
+          url: "hw/HW06.html"
+          deadline: "2026-11-03"
       readings:
         - title: "MML, Chapter 10; Daumé, Chapter 15 (PCA)"
     - date: 2026-10-29
@@ -166,7 +167,9 @@
         - title: "Crash Course Statistics, episodes 18–21, 26, and 27"
           url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr"
       assignments:
-        - title: "Statistics and visualization"
+        - title: "Logistic Regression and visualization"
+          _url: "hw/HW06.html"
+          deadline: "2026-11-10"
     - date: 2026-11-05
       title: "Randomized trials, permutation tests, and t-tests"
 
