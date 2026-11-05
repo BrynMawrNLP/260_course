@@ -119,7 +119,6 @@
     - date: 2026-10-15
       title: "Fall Break — no class"
       type: no_lecture
-
     - date: 2026-10-20
       title: "Lecture 13<br>Logistic regression"
       slides: slides/lecture13.pdf
@@ -153,13 +152,11 @@
           deadline: "2026-11-03"
       readings:
         - title: "MML, Chapter 10; Daumé, Chapter 15 (PCA)"
+        - title: "Linear Algebra MIT Course notes"
+          url: "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/d273f75ee2552a5c3c35ccab37e5edce_MIT18_06SCF11_Ses3.5sum.pdf"
     - date: 2026-10-29
       title: "Lecture 16<br><s>PCA</s><br><s>Singular Value Decomposition</s><br>Canceclled: sick"
       type: no_lecture
-      readings:
-        - title: "Linear Algebra MIT Course notes"
-          url: "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/d273f75ee2552a5c3c35ccab37e5edce_MIT18_06SCF11_Ses3.5sum.pdf"
-
     - date: 2026-11-03
       title: "Lecture 16<br>PCA<br>Singular Value Decomposition<br><s>Normal distributions, hypothesis testing, and p-values</s>"
       slides: slides/lecture16.pdf
@@ -169,12 +166,12 @@
           url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr"
       assignments:
         - title: "Logistic Regression and visualization"
-          _url: "hw/HW06.html"
-          deadline: "2026-11-10"
+          url: "hw/HW07.html"
+          deadline: "2026-11-11"
+    - date: 2026-11-05
+      title: "Lecture 17<s>Randomized trials, permutation tests, and t-tests</s><br>Wrap up PCA and SVD"
 - name: "Theme 4 · Statistical Inference"
   lectures:
-    - date: 2026-11-05
-      title: "Randomized trials, permutation tests, and t-tests"
     - date: 2026-11-10
       title: "Confidence intervals and the bootstrap"
       readings:
