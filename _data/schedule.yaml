@@ -154,15 +154,16 @@
       readings:
         - title: "MML, Chapter 10; Daumé, Chapter 15 (PCA)"
     - date: 2026-10-29
-      title: "Lecture 16<br>PCA<br>Singular Value Decomposition"
+      title: "Lecture 16<br><s>PCA</s><br><s>Singular Value Decomposition</s><br>Canceclled: sick"
+      type: no_lecture
       readings:
         - title: "Linear Algebra MIT Course notes"
-        - url: "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/d273f75ee2552a5c3c35ccab37e5edce_MIT18_06SCF11_Ses3.5sum.pdf"
+          url: "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/d273f75ee2552a5c3c35ccab37e5edce_MIT18_06SCF11_Ses3.5sum.pdf"
 
-- name: "Theme 4 · Statistical Inference"
-  lectures:
     - date: 2026-11-03
-      title: "Normal distributions, hypothesis testing, and p-values"
+      title: "Lecture 16<br>PCA<br>Singular Value Decomposition<br><s>Normal distributions, hypothesis testing, and p-values</s>"
+      slides: slides/lecture16.pdf
+      handouts: handouts/handout16.pdf
       readings:
         - title: "Crash Course Statistics, episodes 18–21, 26, and 27"
           url: "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr"
@@ -170,16 +171,18 @@
         - title: "Logistic Regression and visualization"
           _url: "hw/HW06.html"
           deadline: "2026-11-10"
+- name: "Theme 4 · Statistical Inference"
+  lectures:
     - date: 2026-11-05
       title: "Randomized trials, permutation tests, and t-tests"
-
     - date: 2026-11-10
       title: "Confidence intervals and the bootstrap"
       readings:
         - title: "Bootstrap demonstration by Sara Mathieson"
           url: "https://hc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cb71daf4-e850-4737-97d8-b0bc015b0359"
       assignments:
-        - title: "Bootstrap and confidence intervals"
+        - title: "Principal Component Analysis"
+          deadline: "2026-11-17"
     - date: 2026-11-12
       title: "Bagging and random forests"
 
